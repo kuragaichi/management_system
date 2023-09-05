@@ -1,0 +1,76 @@
+/* 勤怠スタンプ画面 */
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-list-item {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.manegement__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.work-form {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.work-form__button {
+  padding: 100px;
+  height: 300px;
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.break-form {
+  width: 50%;
+  margin-top: 20px;
+}
+
+.break-form__button {
+  padding: 100px;
+  height: 300px;
+  border: none;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* 勤怠管理画面 */
+.data__content {
+  margin: 0 auto;
+  padding: 60px 15px;
+  max-width: 1230px;
+}
+
+.data-table {
+  margin: 0 auto;
+}
+
+.data-table__title, .data-table__inner {
+  width: 100%;
+}
+
+.data-table__row {
+  border-top: 1px solid #E0E0E0;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.data-table__header {
+  padding: 12px;
+  width: 20%;
+  font-weight: bold;
+}
+
+.data-table__item:first-of-type {
+  padding: 12px;
+  width: 90%;
+}

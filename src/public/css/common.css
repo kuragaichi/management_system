@@ -1,0 +1,28 @@
+.header .footer {
+  background: #fff;
+}
+
+.header__inner .footer__inner {
+  margin: 0 auto;
+  padding: 20px 15px;
+  max-width: 1230px;
+}
+
+.header__logo {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.content__inner {
+  background-color: #F2F2F2;
+}
+
+.footer__logo {
+  color: #000;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
